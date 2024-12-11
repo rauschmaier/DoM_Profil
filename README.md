@@ -14,8 +14,9 @@ Iformieren Sie sich [hier](https://www.w3schools.com/js/js_htmldom.asp) über di
 6. **Testen und Debuggen**: Überprüfen Sie Ihre Implementierung und stellen Sie sicher, dass alle Funktionen wie erwartet arbeiten. Nutzen Sie ebenfalls die Entwicklertools Ihres Browsers, um die Ansicht in einem mobilen Endgerät zu simulieren und zu testen.
 
 ## Abgabe
-- Der `main`-Branch ist geschützt, was bedeutet, dass Sie diesen nicht direkt ändern können. Hierdurch wird sichergestellt, dass nur geprüfter Code auf den `main`-Branch gemerged wird.
+- Der `main` Um sicherzustellen, dass nur geprüfter Code auf den `main`-Branch gemerged wird, soll der Code vor dem Mergen überprüft werden
 - Um anzugeben, dass Sie einen lauffähigen Code auf den `main`-Branch mergen möchten, erstellen Sie einen Pull Request.
-- Der Pull Request informiert den Besitzer über Ihre Änderungen und den Merge-Wunsch.
+- Der Pull Request informiert Kollegen über Ihre Änderungen und den Merge-Wunsch.
+- Bevor Sie daher Ihre Lösung des develop-Brranch auf den main Branch mergen, soll ein Pull Request erfolgen.
 - Informieren Sie sich, wie Sie über die GitHub-Seite einen Pull Request mit Ihrer Lösung initiieren können.
 
