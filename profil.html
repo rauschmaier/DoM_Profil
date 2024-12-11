@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinder-Like Image Swiper</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Profil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="search.html">People</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Filter</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Likes</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+    <div class="image-container">
+        <img id="avatar" src="https://xsgames.co/randomusers/assets/avatars/male/74.jpg" alt="Avatar">
+    </div>
+     <div class="info">
+            <p><strong>Name:</strong> <span id="name">John Doe</span></p>
+            <p><strong>Geburtstag:</strong> <span id="birthday">01.01.1990</span></p>
+            <p><strong>Geschlecht:</strong> <span id="gender">Männlich</span></p>
+    </div>
+    <button class="button" onclick="editInfo()">Bearbeiten</button>
+        <button class="button" onclick="saveInfo()" style="display: none;">Speichern</button>
+    </div>
+
+    <script>
+        function editInfo() {
+        }
+
+        function saveInfo() {
+        }
+    </script>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
